@@ -17,7 +17,7 @@ namespace Exercise4_Code
             int[] nums = new int[ARRAY_SIZE];
             for (int i = 0; i < ARRAY_SIZE; i++)
                 // randomly generate an integer beteen 0 and RAMDOM_MAX
-                nums[i] = rand.Next();
+                nums[i] = rand.Next(100);
 
 
             Console.Clear();
